@@ -1,0 +1,377 @@
+
+    [    {
+            "tag": "greeting",
+            "patterns": ["Hi", "Hello", "Hey", "How are you", "What's up"],
+            "responses": ["Hi there! Welcome to our clothing store.", "Hello! How can I assist you today?", "Hey! Ready to find some great clothes?", "Hi! Looking for something special?"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye", "Take care"],
+            "responses": ["Goodbye! Come back soon.", "See you later! Have a great day.", "Take care! Hope to see you again soon."]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thank you", "Thanks", "Thanks a lot", "I appreciate it"],
+            "responses": ["You're welcome!", "No problem, happy to help.", "Glad I could assist you."]
+        },
+        {
+            "tag": "product_inquiry",
+            "patterns": ["What do you have?", "What kind of clothes do you sell?", "Can you show me your products?"],
+            "responses": ["We offer a wide range of clothing items, including shirts, pants, dresses, and accessories.", "Our collection includes trendy outfits for all occasions. Feel free to explore!"]
+        },
+        {
+            "tag": "discount",
+            "patterns": ["Do you offer any discounts?", "Are there any sales going on?", "Can I get a discount?"],
+            "responses": ["Yes, we have ongoing promotions and occasional sales events. Be sure to check our website for the latest offers.", "You can subscribe to our newsletter to receive exclusive discounts and updates on upcoming sales."]
+        },
+        {
+            "tag": "purchase",
+            "patterns": ["How can I place an order?", "Can I buy something?", "I want to make a purchase."],
+            "responses": ["You can easily place an order directly on our website. Browse through our collection and add your favorite items to your cart.", "To make a purchase, simply select the items you'd like to buy and proceed to checkout. It's quick and easy!"]
+        },
+        {
+            "tag": "size_guide",
+            "patterns": ["How do I choose the right size?", "Can you help me with sizing?", "What size should I order?"],
+            "responses": ["Check out our size guide on our website for assistance in finding the perfect fit. If you need further assistance, feel free to reach out to our customer service team."]
+        },
+        {
+            "tag": "shipping",
+            "patterns": ["How long does shipping take?", "What are your shipping options?", "Do you offer international shipping?"],
+            "responses": ["Shipping times vary depending on your location and chosen shipping method. We offer standard and expedited shipping options. For international orders, shipping times may be longer due to customs processing.", "You can choose from our standard or expedited shipping options at checkout. We also offer international shipping to select countries."]
+        },
+        {
+            "tag": "returns",
+            "patterns": ["What is your return policy?", "Can I return an item if it doesn't fit?", "How do I initiate a return?"],
+            "responses": ["We have a hassle-free return policy. If you're not satisfied with your purchase, you can return it within 30 days for a full refund or exchange. Please visit our website for detailed instructions on how to initiate a return.", "We understand that finding the perfect fit can be challenging. If your item doesn't fit, you can return it for a different size or style within 30 days of purchase."]
+        },
+        {
+            "tag": "customer_support",
+            "patterns": ["How can I contact customer support?", "Is there a customer service hotline?", "Can I chat with a representative?"],
+            "responses": ["Our customer support team is available to assist you via email, phone, or live chat. You can find our contact information on our website. We're here to help with any questions or concerns you may have.", "You can reach our customer service team by phone during business hours or send us an email anytime. We're committed to providing excellent support to our customers."]
+        },
+        {
+            "tag": "new_arrivals",
+            "patterns": ["Do you have any new arrivals?", "What's new in your collection?", "Can you show me the latest styles?"],
+            "responses": ["Yes, we frequently update our collection with new arrivals and the latest styles. Check out our 'New Arrivals' section on our website to see our newest additions.", "Discover the latest trends and styles in our 'New Arrivals' section. We're always adding fresh designs to keep your wardrobe up-to-date."]
+        },
+        {
+            "tag": "gift_cards",
+            "patterns": ["Do you offer gift cards?", "Can I purchase a gift card?", "How do I buy a gift card?"],
+            "responses": ["Yes, we offer gift cards that make the perfect gift for any occasion. You can purchase a gift card in various denominations on our website. Treat your loved ones to the gift of style!", "Give the gift of choice with our convenient gift cards. Simply select the desired denomination and add it to your cart. It's a thoughtful and versatile gift for any fashion enthusiast."]
+        },
+        {
+            "tag": "styling_advice",
+            "patterns": ["Can you help me put together an outfit?", "Do you offer styling advice?", "I need help with styling."],
+            "responses": ["Our expert stylists are here to help you create the perfect look. Whether you're dressing for a special occasion or updating your everyday wardrobe, we'll provide personalized styling advice to suit your taste and preferences.", "Let our experienced stylists guide you in creating stylish and on-trend outfits. Share your style goals with us, and we'll curate a selection of clothing and accessories tailored to your individual style."]
+        },
+        {
+            "tag": "loyalty_program",
+            "patterns": ["Do you have a loyalty program?", "How does your loyalty program work?", "Can I earn rewards for shopping?"],
+            "responses": ["Yes, we have a loyalty program that rewards you for shopping with us. Earn points for every purchase and redeem them for exclusive discounts, birthday treats, and more. Join our loyalty program today and start earning rewards!", "Our loyalty program is designed to reward our valued customers. Simply sign up to start earning points every time you shop. The more you spend, the more rewards you'll unlock."]
+        },
+        {
+            "tag": "product_availability",
+            "patterns": ["Is this item in stock?", "Do you have this in my size?", "When will this be back in stock?"],
+            "responses": ["You can check the availability of any item on our website. Simply select the desired size and color, and the website will display the current stock status.", "Our website displays real-time inventory information, so you can easily see if the item is available in your size. If it's out of stock, you can sign up for notifications to be alerted when it's back in stock."]
+        },
+        {
+            "tag": "feedback",
+            "patterns": ["How can I provide feedback?", "Do you welcome customer feedback?", "Can I leave a review?"],
+            "responses": ["We value your feedback and strive to provide the best possible shopping experience. You can leave a review on our website or reach out to our customer support team with any comments or suggestions. Your input helps us improve our products and services.", "We appreciate hearing from our customers! Whether you have praise or constructive criticism, we welcome your feedback. Let us know how we're doing so we can continue to serve you better."]
+        },
+        {
+            "tag": "customization",
+            "patterns": ["Can I customize an item?", "Do you offer customization services?", "Can I personalize this product?"],
+            "responses": ["Yes, we offer customization services for select items. Whether you want to add a monogram, customize the fit, or personalize with your own design, our team can help bring your vision to life. Contact us for more information on customization options.", "Make your purchase truly unique with our customization services. From embroidery to bespoke tailoring, we'll work with you to create a one-of-a-kind piece that reflects your style and personality."]
+        },
+        {
+            "tag": "best_sellers",
+            "patterns": ["What are your best sellers?", "Can you show me your top-selling items?", "What's popular right now?"],
+            "responses": ["Explore our best sellers for the latest trends and must-have styles. Our top-selling items are curated based on customer favorites and current fashion trends.", "Discover our best sellers for wardrobe essentials and statement pieces that are loved by our customers. Shop our most popular items for the ultimate in style and quality."]
+        },
+        {
+            "tag": "occasion",
+            "patterns": ["Do you have outfits for special occasions?", "Can you recommend an outfit for a specific event?", "What should I wear for a wedding/party/date?"],
+            "responses": ["Whether you're attending a wedding, party, or date night, we have the perfect outfit for every occasion. Browse our occasion wear collection for elegant dresses, chic jumpsuits, and stylish separates.", "Dress to impress for any event with our curated selection of occasion wear. From formal affairs to casual gatherings, we'll help you find the ideal outfit to suit your style and the occasion."]
+        },
+        {
+            "tag": "fashion_trends",
+            "patterns": ["What are the latest fashion trends?", "Can you show me what's trending?", "What's hot right now in fashion?"],
+            "responses": ["Stay ahead of the fashion curve with our guide to the latest trends. From statement prints to timeless classics, we'll keep you stylishly informed and inspired.", "Discover the hottest trends of the season with our curated collection of fashion-forward styles. Shop the latest looks straight from the runway and elevate your wardrobe with on-trend pieces."]
+        },
+        {
+            "tag": "ethical_sustainable",
+            "patterns": ["Are your clothes ethically made?", "Do you support sustainable fashion?", "What is your commitment to sustainability?"],
+            "responses": ["We're committed to ethical and sustainable practices throughout our supply chain. Our clothes are made with respect for people and the planet, using eco-friendly materials and responsible production methods.", "Sustainability is at the heart of everything we do. We prioritize ethical sourcing, fair labor practices, and environmentally friendly processes to minimize our impact on the planet."]
+        },
+        {
+            "tag": "fit_style_advice",
+            "patterns": ["How do I find the right fit?", "Can you recommend a style that suits me?", "What's the best style for my body type?"],
+            "responses": ["Finding the perfect fit is easy with our size guide and expert styling advice. Whether you prefer a relaxed or tailored look, we'll help you find clothes that flatter your figure and reflect your personal style.", "Discover your signature style with our expert advice on fit and fashion. From classic silhouettes to trendy cuts, we'll help you create a wardrobe that's as unique as you are."]
+        },
+        {
+            "tag": "gift_ideas",
+            "patterns": ["Can you suggest a gift for someone?", "Do you have any gift ideas?", "What's a good gift for a fashion lover?"],
+            "responses": ["Give the gift of style with our curated selection of gift ideas. Whether it's for a birthday, anniversary, or special occasion, we have the perfect present for every fashion enthusiast.", "Surprise your loved ones with a thoughtful gift from our collection of stylish accessories, luxe essentials, and fashion-forward pieces. Shop our gift ideas for inspiration and make their day extra special."]
+        },
+        {
+            "tag": "collaborations",
+            "patterns": ["Do you collaborate with other brands?", "Are there any designer collaborations?", "Can I find exclusive collections?"],
+            "responses": ["Discover exclusive collaborations and designer partnerships that bring together the best in fashion and innovation. Shop our limited-edition collections for unique pieces you won't find anywhere else.", "Explore our collaborations with top designers and brands to experience cutting-edge fashion and creativity. From streetwear to haute couture, we're proud to showcase collaborations that push the boundaries of style."]
+        },
+        {
+            "tag": "community_engagement",
+            "patterns": ["Do you support any causes or charities?", "How do you give back to the community?", "What is your commitment to social responsibility?"],
+            "responses": ["We're dedicated to making a positive impact in our community and beyond. Through charitable initiatives, volunteer efforts, and partnerships with local organizations, we're committed to giving back and making a difference.", "Social responsibility is an integral part of our brand ethos. We believe in using our platform to support important causes, champion diversity and inclusion, and create positive change in the world."]
+        },
+        {
+            "tag": "exclusive_access",
+            "patterns": ["Do you offer exclusive access to members?", "Are there any perks for loyal customers?", "Can I join a VIP program?"],
+            "responses": ["Unlock exclusive access to member-only perks, rewards, and events by joining our loyalty program. Enjoy special discounts, early access to sales, and VIP treatment as a valued member of our community.", "Become a VIP member and enjoy exclusive benefits reserved for our most loyal customers. From VIP shopping events to personalized styling services, we'll make you feel like a star."]
+        },
+        {
+            "tag": "fashion_advice",
+            "patterns": ["Can you give me fashion advice?", "How can I elevate my style?", "Do you offer personal styling services?"],
+            "responses": ["Get personalized fashion advice from our team of expert stylists. Whether you're looking for outfit inspiration, wardrobe updates, or styling tips, we're here to help you look and feel your best.", "Elevate your style with our personalized styling services. Let our fashion experts curate a wardrobe that reflects your individuality and helps you stand out from the crowd."]
+        },
+        {
+            "tag": "fabric_care",
+            "patterns": ["How should I care for my garments?", "Do you have any tips for washing clothes?", "What is the best way to maintain fabric quality?"],
+            "responses": ["Proper care is essential for maintaining the quality and longevity of your garments. Follow the care instructions on the garment's label and consider factors such as fabric type, washing temperature, and drying method.", "Extend the life of your clothes with our fabric care tips. From washing and drying to storing and ironing, we'll help you keep your wardrobe looking fresh and new."]
+        },
+        {
+            "tag": "seasonal_collection",
+            "patterns": ["Do you offer seasonal collections?", "Can I shop for seasonal trends?", "What's new in your spring/summer/fall/winter collection?"],
+            "responses": ["Stay stylish all year round with our seasonal collections. From lightweight fabrics and vibrant colors in spring/summer to cozy knits and rich hues in fall/winter, we've got you covered for every season.", "Discover the latest trends and must-have pieces from our seasonal collections. Whether you're dressing for warmer weather or cooler temperatures, we have the perfect styles to update your wardrobe."]
+        },
+        {
+            "tag": "stylish_outfits",
+            "patterns": ["Can you suggest a stylish outfit?", "Do you have any outfit ideas?", "What's a trendy look for this season?"],
+            "responses": ["Elevate your look with our stylish outfit ideas. From casual chic to polished elegance, we'll help you put together effortlessly fashionable ensembles that make a statement.", "Get inspired with our curated collection of stylish outfits. Whether you're dressing for work, weekend, or special occasions, we have outfit ideas to suit every style and occasion."]
+        },
+        {
+            "tag": "fitting_room",
+            "patterns": ["Do you have a virtual fitting room?", "Can I try on clothes online?", "Is there a way to see how clothes fit before purchasing?"],
+            "responses": ["Experience the convenience of virtual try-on with our virtual fitting room. Simply upload a photo or use your webcam to see how clothes fit before you buy.", "Try on clothes from the comfort of your home with our virtual fitting room. Explore different styles, sizes, and colors to find the perfect fit without ever leaving your couch."]
+        },
+        {
+            "tag": "celebrity_inspired",
+            "patterns": ["Do you offer celebrity-inspired looks?", "Can I shop for outfits worn by celebrities?", "What are some celebrity-approved styles?"],
+            "responses": ["Get the celebrity look with our selection of celebrity-inspired styles. From red carpet glamour to off-duty chic, we'll help you steal the spotlight with fashion-forward outfits.", "Channel your favorite celebrities' style with our curated collection of celebrity-inspired looks. Discover the latest trends and celebrity-approved styles to elevate your wardrobe."]
+        },
+        {
+            "tag": "style_quiz",
+            "patterns": ["Can I take a style quiz?", "Do you offer personalized style recommendations?", "How can I find clothes that suit my style?"],
+            "responses": ["Discover your signature style with our style quiz. Answer a few simple questions about your preferences and lifestyle, and we'll provide personalized style recommendations tailored to your unique taste.", "Take our style quiz to uncover your fashion personality and receive personalized style recommendations. Whether you're classic, bohemian, or minimalist, we'll help you find clothes that reflect your individual style."]
+        },
+        {
+            "tag": "wishlist",
+            "patterns": ["Can I create a wishlist?", "Do you have a feature to save items for later?", "How can I keep track of items I like?"],
+            "responses": ["Create your dream wardrobe with our wishlist feature. Save your favorite items for later, compare options, and easily access them whenever you're ready to shop.", "Never miss out on must-have items with our wishlist feature. Save items you love, create multiple wishlists for different occasions, and stay organized while you shop."]
+        },
+        {
+            "tag": "fashion_blog",
+            "patterns": ["Do you have a fashion blog?", "Can I read articles about fashion trends?", "Where can I find style inspiration?"],
+            "responses": ["Explore the latest trends, style tips, and fashion news on our fashion blog. From outfit ideas to insider interviews, we're your go-to source for all things fashion.", "Get inspired by our fashion blog, where we share style advice, trend forecasts, and behind-the-scenes insights. Whether you're a fashionista or just looking for a little inspiration, we've got you covered."]
+        },
+        {
+            "tag": "online_community",
+            "patterns": ["Is there an online community for fashion enthusiasts?", "Do you have a forum or social media group?", "Can I connect with other shoppers online?"],
+            "responses": ["Join our online community of fashion enthusiasts and connect with like-minded shoppers from around the world. Share style tips, outfit ideas, and shopping recommendations in a supportive and inclusive environment.", "Connect with fellow fashion lovers in our online community. From style swaps to fashion challenges, there's always something fun happening in our forum or social media group."]
+        },
+        {
+            "tag": "behind_the_brand",
+            "patterns": ["Can you tell me more about the brand?", "What is the story behind the brand?", "Do you have any brand values or philosophy?"],
+            "responses": ["Discover the story behind the brand and our commitment to quality, craftsmanship, and innovation. From our founding principles to our future vision, we're proud to share our journey with you.", "Learn more about the brand's heritage, values, and philosophy. From our dedication to sustainability to our passion for creativity and expression, we're driven by a shared mission to inspire and empower."]
+        },
+        {
+            "tag": "greeting",
+            "patterns": ["Hi", "Hello", "Hey", "Welcome"],
+            "responses": ["Hello there! Welcome to our clothing store.", "Hi there, how can I assist you with your shopping today?", "Hey there, feel free to browse our latest collection."]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye", "Take care"],
+            "responses": ["Goodbye! Don't forget to check out our latest offers.", "See you again soon! Happy shopping.", "Take care. Visit us again for more amazing fashion finds."]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thank you", "Thanks", "Thanks a lot", "I appreciate it"],
+            "responses": ["You're welcome! Let me know if you need any other assistance.", "No problem, I'm here to help with your shopping needs.", "Glad I could help. Don't hesitate to ask if you have more questions."]
+        },
+        {
+            "tag": "new_arrivals",
+            "patterns": ["What's new", "New arrivals", "Latest collection", "New products"],
+            "responses": ["Check out our new arrivals section for the latest fashion trends!", "We just got a fresh batch of stylish clothing. Head over to the new arrivals page.", "You'll love our latest collection! It features trendy and affordable pieces."]
+        },
+        {
+            "tag": "product_category",
+            "patterns": ["What categories do you have", "Types of clothing", "Product categories", "Clothing sections"],
+            "responses": ["We offer a wide range of clothing categories such as dresses, tops, bottoms, outerwear, and accessories.", "Our product categories include casual wear, formal wear, activewear, and more. Let me know what you're looking for.", "We have dedicated sections for men's, women's, and kids' clothing. You can also browse by occasion or style."]
+        },
+        {
+            "tag": "size_guide",
+            "patterns": ["Size guide", "Sizing chart", "What size should I get"],
+            "responses": ["You can find our detailed size guide on the product pages. It'll help you pick the perfect fit.", "Check out our sizing chart to ensure you get the right measurement for your body type.", "Our size guide is available on the website. It provides measurements for accurate sizing."]
+        },
+        {
+            "tag": "sale",
+            "patterns": ["Any sales", "Discounts", "Offers", "Promo codes"],
+            "responses": ["Absolutely! We have an ongoing sale section with great discounts. Don't miss out on those deals.", "Check our offers page for the latest promo codes and discounts. You can save big on your purchase.", "We frequently run sales and promotions. Subscribe to our newsletter to stay updated on the best offers."]
+        },
+        {
+            "tag": "exchange_return",
+            "patterns": ["Exchange policy", "Return policy", "Can I return or exchange"],
+            "responses": ["We have a hassle-free exchange and return policy. You can return or exchange items within 30 days of purchase.", "Returns and exchanges are accepted within a reasonable timeframe. Check our policy for more details.", "Don't worry, we make it easy to return or exchange products if they don't meet your expectations."]
+        },
+        {
+            "tag": "outfit_recommendation",
+            "patterns": ["Can you recommend an outfit for a specific occasion?", "What should I wear for a job interview?", "Do you have any outfit ideas for a casual day out?"],
+            "responses": ["Get personalized outfit recommendations for any occasion. Whether it's a job interview, date night, or brunch with friends, we'll help you put together the perfect look.", "Let us help you find the ideal outfit for any occasion. Simply tell us the event or mood you're dressing for, and we'll recommend stylish options to suit your style and personality."]
+        },
+        {
+            "tag": "fashion_events",
+            "patterns": ["Are there any upcoming fashion events?", "Can I attend fashion shows or trunk shows?", "Do you host fashion-related events?"],
+            "responses": ["Stay informed about the latest fashion events in your area and beyond. From runway shows to pop-up shops, we'll keep you in the know about all things fashion.", "Experience the excitement of fashion firsthand by attending our exclusive events. Join us for fashion shows, trunk shows, and other stylish gatherings where you can discover new trends and mingle with fellow fashion enthusiasts."]
+        },
+        {
+            "tag": "wardrobe_organization",
+            "patterns": ["How can I organize my wardrobe?", "Do you have any tips for closet organization?", "What's the best way to declutter my closet?"],
+            "responses": ["Get your wardrobe in order with our expert tips on closet organization. From maximizing space to creating a capsule wardrobe, we'll help you streamline your closet and simplify your morning routine.", "Say goodbye to closet chaos with our practical advice on wardrobe organization. Learn how to sort, store, and display your clothes for maximum efficiency and style."]
+        },
+        {
+            "tag": "fashion_history",
+            "patterns": ["Can you tell me about fashion history?", "Do you have any articles on fashion through the ages?", "What are some iconic fashion moments?"],
+            "responses": ["Explore the fascinating world of fashion history with our curated collection of articles and resources. From iconic designers to revolutionary trends, we'll take you on a journey through the evolution of style.", "Discover the stories behind some of fashion's most memorable moments and influential figures. Our articles on fashion history will enlighten and inspire you."]
+        },
+        {
+            "tag": "sustainable_materials",
+            "patterns": ["What sustainable materials do you use?", "Are your products eco-friendly?", "Can you tell me more about your sustainability efforts?"],
+            "responses": ["Learn about the sustainable materials we use to create our clothes and accessories. From organic cotton to recycled polyester, we're committed to reducing our environmental impact and promoting eco-conscious fashion.", "Discover our commitment to sustainability and the steps we're taking to create a more eco-friendly fashion industry. From sourcing sustainable materials to reducing waste, we're dedicated to making a positive difference for the planet."]
+        },
+        {
+            "tag": "virtual_styling_session",
+            "patterns": ["Can I book a virtual styling session?", "Do you offer personalized styling services online?", "How can I get fashion advice from a stylist?"],
+            "responses": ["Elevate your style with a personalized virtual styling session. Our experienced stylists will work with you one-on-one to create outfits that suit your taste, lifestyle, and body type.", "Experience the convenience of virtual styling with our online styling sessions. Whether you need help revamping your wardrobe or finding the perfect outfit for a special occasion, our stylists are here to help."]
+        },
+        {
+            "tag": "fashion_quiz",
+            "patterns": ["Can I take a fashion quiz to discover my style?", "Do you have any quizzes to help me find my fashion persona?", "How can I learn more about my fashion preferences?"],
+            "responses": ["Take our fashion quiz to uncover your unique style personality. Whether you're a trendsetter, a minimalist, or somewhere in between, we'll help you define your fashion identity.", "Discover your fashion persona with our fun and insightful fashion quiz. Answer a few questions about your style preferences, and we'll reveal your signature look."]
+        },
+        {
+            "tag": "fashion_icons",
+            "patterns": ["Who are some fashion icons I can look to for inspiration?", "Can you recommend any style icons?", "What are some timeless fashion icons?"],
+            "responses": ["Draw inspiration from fashion icons past and present. From Audrey Hepburn to Rihanna, these style mavens have left their mark on the fashion world and continue to influence trends today.", "Explore the iconic looks of fashion legends and trendsetters. From classic Hollywood glamour to modern street style, these fashion icons have set the standard for chic and sophistication."]
+        },
+        {
+            "tag": "fashion_quotes",
+            "patterns": ["Do you have any inspirational fashion quotes?", "Can you share some famous fashion quotes?", "What are some iconic quotes about style?"],
+            "responses": ["Get inspired with our collection of timeless fashion quotes. From Coco Chanel to Karl Lagerfeld, these words of wisdom celebrate the power of style and self-expression.", "Elevate your fashion game with these iconic quotes from fashion's biggest names. Whether you're seeking motivation or simply appreciating the art of dressing, these quotes will resonate with every fashion enthusiast."]
+        },
+        {
+            "tag": "fashion_budgeting",
+            "patterns": ["How can I budget for fashion purchases?", "Do you have any tips for shopping on a budget?", "What's the best way to save money on clothes?"],
+            "responses": ["Master the art of fashion budgeting with our expert tips and tricks. From setting a budget to prioritizing purchases, we'll help you make the most of your fashion dollars and build a stylish wardrobe without breaking the bank.", "Shop smart and save money on clothes with our budget-friendly shopping tips. Whether you're hunting for deals or embracing the art of thrifting, we'll show you how to look chic on a budget."]
+        },
+        {
+            "tag": "product_recommendation",
+            "patterns": ["Recommend products", "What should I buy", "Suggest items"],
+            "responses": ["Based on your preferences, I can recommend some trendy and stylish pieces that might interest you.", "Let me know what kind of clothing you're looking for, and I'll happily suggest some great options.", "Our personal stylists can provide tailored recommendations. Just share your style and budget preferences."]
+        },
+        {
+            "tag": "product_details",
+            "patterns": ["Product info", "Details about", "Tell me more"],
+            "responses": ["Sure, I can provide detailed information about the product, such as materials, care instructions, and sizing details.", "Let me know which product you're interested in, and I'll share all the relevant details with you.", "I'd be happy to give you more information on the product's features, colors, and available sizes."]
+        },
+        {
+            "tag": "styling_tips",
+            "patterns": ["How to style", "Outfit ideas", "Styling advice"],
+            "responses": ["Check out our style guide for inspiration on how to put together trendy outfits with our clothing.", "I can suggest some styling tips and outfit ideas based on the items you're interested in.", "Our fashion experts have put together some great styling advice and lookbooks to help you create chic looks."]
+        },
+        {
+            "tag": "size_fit",
+            "patterns": ["Does it fit true to size", "Sizing advice", "Fit guidance"],
+            "responses": ["Many of our customers find that the sizing runs true to the size chart, but it's always best to double-check the specific product details.", "I'd be happy to provide sizing advice based on your measurements and the item you're interested in.", "Our size guides can help you determine the best fit, but feel free to reach out if you need additional fit guidance."]
+        },
+        {
+            "tag": "shipping_delivery",
+            "patterns": ["Shipping options", "Delivery times", "When will I receive"],
+            "responses": ["We offer various shipping options, including standard, express, and overnight delivery. Delivery times vary based on your location and chosen method.", "Shipping details, including estimated delivery dates, are provided during the checkout process.", "You can check our shipping and delivery page for more information on the available options and expected timelines."]
+        },
+        {
+            "tag": "payment_options",
+            "patterns": ["Payment methods", "How to pay", "Accepted payments"],
+            "responses": ["We accept major credit cards, PayPal, and other popular payment methods for a secure and convenient checkout experience.", "You can choose from various payment options during the checkout process, including credit/debit cards, digital wallets, and more.", "We strive to provide our customers with multiple flexible payment options to suit their preferences."]
+        },
+        {
+            "tag": "order_tracking",
+            "patterns": ["Track order", "Order status", "Where is my order"],
+            "responses": ["You can easily track the status of your order by entering your order number on our website or contacting customer service.", "Rest assured, we'll provide you with order tracking information once your purchase is processed and shipped.", "Let me know your order details, and I can check on the current status and shipping progress for you."]
+        },
+        {
+            "tag": "loyalty_program",
+            "patterns": ["Rewards program", "Loyalty benefits", "Member perks"],
+            "responses": ["We have a loyalty program that offers exclusive perks, early access to sales, and points for every purchase. Consider signing up!", "Our rewards program is a great way to earn discounts, free shipping, and other benefits just for shopping with us.", "As a loyalty member, you'll enjoy special offers, birthday surprises, and other exciting perks throughout the year."]
+        },
+        {
+            "tag": "store_locations",
+            "patterns": ["Retail stores", "Physical locations", "Find a store"],
+            "responses": ["You can find the addresses and details of our retail store locations on our website's store locator.", "While we have an online presence, we also have physical stores in various cities. Let me know your area, and I can provide the nearest store details.", "In addition to our online store, we have brick-and-mortar locations where you can shop and try on our clothing in person."]
+        },
+        {
+            "tag": "gift_cards",
+            "patterns": ["Gift card options", "Buy gift cards", "E-gift cards"],
+            "responses": ["We offer physical and e-gift cards in various denominations, perfect for gifting or treating yourself!", "Gift cards are available for purchase on our website or in-store, making it easy to give the gift of fashion.", "Consider our gift cards as a convenient and thoughtful present for any occasion. You can even personalize them with a special message."]
+        },
+        {
+            "tag": "sale_notifications",
+            "patterns": ["Notify me of sales", "Updates on promotions", "Sale alerts"],
+            "responses": ["Sure, I can sign you up for our email or SMS notifications to keep you informed about the latest sales and promotions.", "Don't miss out on our best deals! Provide your contact information, and we'll send you alerts whenever we have exciting sales or offers.", "Stay ahead of the game by enabling sale notifications. You'll be the first to know about our upcoming promotions and discounts."]
+        },
+        {
+            "tag": "personalized_styling",
+            "patterns": ["Personal stylist", "Styling service", "Style consultation"],
+            "responses": ["We offer a personalized styling service where our fashion experts can curate a custom wardrobe based on your preferences and body type.", "Consider booking a virtual or in-person styling consultation with one of our expert stylists for a tailored fashion experience.", "Our personal stylists are dedicated to helping you find the perfect pieces that flatter your unique style and shape."]
+        },
+        {
+            "tag": "sustainable_fashion",
+            "patterns": ["Eco-friendly clothing", "Sustainable fashion", "Ethical products"],
+            "responses": ["We are committed to sustainable and ethical fashion practices. Check out our eco-friendly collection made from recycled or organic materials.", "Supporting sustainable fashion is important to us. Our products are sourced and produced responsibly with minimal environmental impact.", "For those interested in ethical and eco-conscious fashion, we have a dedicated section showcasing our sustainable clothing line."]
+        },
+        {
+            "tag": "influencer_collaborations",
+            "patterns": ["Influencer collections", "Celeb collaborations", "Limited editions"],
+            "responses": ["Keep an eye out for our exclusive influencer and celebrity collaborations, featuring limited-edition collections and trendy designs.", "We frequently partner with popular influencers and celebrities to bring you unique and fashionable capsule collections.", "Don't miss our special influencer collabs! These limited-edition pieces sell out quickly, so stay tuned for the next drop."]
+        },
+        {
+            "tag": "social_media",
+            "patterns": ["Instagram", "Facebook", "Social media accounts"],
+            "responses": ["Follow us on Instagram @rohansb10, Facebook, and other social media platforms to stay updated on our latest arrivals, styling tips, and exclusive content.", "Our social media channels are a great way to connect with our fashion community, get styling inspiration, and learn about upcoming events.", "Be sure to check out our social media accounts for behind-the-scenes sneak peeks, user-generated content, and exciting giveaways!"]
+        },
+        {
+            "tag": "subscription_boxes",
+            "patterns": ["Clothing subscription", "Fashion boxes", "Monthly boxes"],
+            "responses": ["Have you considered our monthly subscription boxes? They deliver a curated selection of trendy clothing and accessories right to your doorstep.", "Our fashion subscription service is perfect for those who love surprises and staying on top of the latest styles without effort.", "Check out our subscription box options if you'd like to receive a personalized box of fashion finds every month."]
+        },
+        {
+            "tag": "virtual_try_on",
+            "patterns": ["Try on virtually", "Virtual fitting", "AR try-on"],
+            "responses": ["With our virtual try-on feature, you can see how the clothing would look on your body type before making a purchase.", "Experience our augmented reality (AR) try-on technology, which allows you to visualize the fit and style of our products from the comfort of your home.", "Our virtual fitting room uses advanced technology to help you make more informed buying decisions by trying on clothes digitally."]
+        },
+        {
+            "tag": "in_store_events",
+            "patterns": ["Upcoming events", "In-store activities", "Fashion events"],
+            "responses": ["Be sure to check our events calendar for exciting in-store happenings like fashion shows, meet-and-greets, and exclusive sales.", "We frequently host fun and engaging events at our retail locations, such as styling workshops, influencer meetups, and trunk shows.", "In addition to shopping, our stores offer a range of events and activities to enhance your fashion experience. Stay tuned for upcoming announcements!"]
+        },
+        {
+            "tag": "corporate_gifting",
+            "patterns": ["Corporate gifts", "Business gifting", "Employee gifts"],
+            "responses": ["Did you know we offer corporate gifting solutions? Our team can assist with curating branded apparel and gift sets for employees or clients.", "For businesses looking to reward their teams or impress clients, our corporate gifting program provides stylish and practical options.", "Let us know if you need assistance with corporate gifting. We have a dedicated team to help with branding, customization, and bulk orders."]
+        },
+        {
+            "tag": "international_shipping",
+            "patterns": ["Overseas shipping", "International orders", "Global delivery"],
+            "responses": ["We offer international shipping to many countries around the world, making it easy for you to shop our latest fashion from anywhere.", "Yes, we can deliver your order globally! Check our website for the list of countries we ship to and estimated delivery times.", "While our primary focus is on domestic orders, we do provide international shipping options for customers in select regions."]
+        }
+    ]
