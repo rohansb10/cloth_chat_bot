@@ -1,6 +1,6 @@
 # Clothing Store Chatbot
 
-![Skills](https://img.shields.io/badge/Skills-NLP%20%7C%20Machine%20Learning%20%7C%20Streamlit-blue)
+![Skills](https://img.shields.io/badge/Skills-NLP%20%7C%20TensorFlow%20%7C%20PyTorch-<COLOR>?style=for-the-badge&logo=natural-language-processing&logoColor=white&logoWidth=40&labelColor=<LABEL_COLOR>)
 
 Welcome to the Clothing Store Chatbot! This chatbot is designed to assist customers with inquiries related to our clothing products, sizes, styles, trends, and any other relevant information. It is user-friendly and available in multiple languages for a seamless customer experience.
 
